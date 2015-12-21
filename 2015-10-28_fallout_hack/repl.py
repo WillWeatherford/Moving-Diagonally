@@ -13,7 +13,7 @@ def repl(prompt, options={}):
     while not result:
         u_in = raw_input(prompt)
         for match, func in options:
-            if isinstance(re, tuple) and u_in in option:
+            if isinstance(re, tuple) and u_in in match:
                 result = func(u_in)
     return result
 
