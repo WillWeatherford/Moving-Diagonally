@@ -52,11 +52,15 @@ def sum_paths(orig, dest):
 
 # 3 helper functions to identify positions up, to the right and diagonally
 # up-right from a given pos
+
+
 def up(pos):
     return pos[0], pos[1] + 1
 
+
 def right(pos):
     return pos[0] + 1, pos[1]
+
 
 def diag(pos):
     return pos[0] + 1, pos[1] + 1
