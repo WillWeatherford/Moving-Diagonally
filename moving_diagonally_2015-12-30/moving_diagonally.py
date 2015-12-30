@@ -4,7 +4,7 @@ def main(inp):
     Take multi-line string of problem grid; return total number of paths
     between positions of Xs, starting from lower left.
     '''
-    rows = inp.split('\n')
+    rows = inp.splitlines()
 
     # find all positions of "X" characters within the multi line string input.
     # reverse iterate on rows with [::-1] slice, so we start from bottom row.
